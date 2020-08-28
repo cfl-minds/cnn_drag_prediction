@@ -8,5 +8,5 @@ results
 accuracy_and_loss
 loss
 drag_relative_error
-DS0/drags*
-DS0/shapes*
+MDS0/drags*
+MDS0/shapes*

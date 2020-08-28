@@ -9,7 +9,7 @@ If you use this repository for your own research, please consider citing it.
 
 ## Usage
 
-The dataset is zipped in the ```DS0/``` folder to save space on the github repository. You need to unzip it before proceeding further. You will need ```tensorflow``` and ```keras``` installed.
+The dataset is zipped in the ```MDS0/``` folder to save space on the github repository. You need to unzip it before proceeding further. You will need ```tensorflow``` and ```keras``` installed.
 
 <p align="center">
   <img width="600" alt="network" src="https://user-images.githubusercontent.com/44053700/79682090-d194ac00-821f-11ea-9f52-a209f2e99ac1.png">
@@ -17,7 +17,7 @@ The dataset is zipped in the ```DS0/``` folder to save space on the github repos
 
 ### Training
 
-To train the network described in the paper, just run ```python3 train_network.py```. First, the dataset will be loaded from the ```DS0``` folder. Then, training will start. Training on a decent GPU card is highly recommended (approx. 25 minutes are required on a single Tesla V100 card). Once learning is over, the best model ```best.h5``` is saved in the working repository. If you wish to make changes, most parameters are accessible in ```params.py```.
+To train the network described in the paper, just run ```python3 train_network.py```. First, the dataset will be loaded from the ```MDS0``` folder. Then, training will start. Training on a decent GPU card is highly recommended (approx. 25 minutes are required on a single Tesla V100 card). Once learning is over, the best model ```best.h5``` is saved in the working repository. If you wish to make changes, most parameters are accessible in ```params.py```.
 
 <p align="center">
   <img width="600" alt="loss" src="https://user-images.githubusercontent.com/44053700/86446442-430ad380-bd14-11ea-8852-9c2134c87de2.png">
